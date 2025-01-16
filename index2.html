@@ -1,0 +1,332 @@
+
+<html>
+<head>
+	<title>Julius's Portfolio</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			font-weight: bold;
+		}
+
+		.navbar {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background-color: #fae5c9; 
+			z-index: 1000;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			font-size: 15px;
+			display: flex;
+			justify-content: right;
+			align-items: center;
+		}
+
+		.navbar a { 
+			margin-right: 100px;
+			text-decoration: none;
+			color: black;
+		}
+
+		.content {
+			background-color: #faf0e3;
+			height: 5500px;
+			width: 100%;
+		}
+
+		div#home {
+			height: 700px;
+			width: 100%;
+			display: flex;
+			font-size: 20px;
+		}
+
+		div#home div {
+			width: 50%;
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		div#home div:nth-of-type(1) {
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			padding-left: 50px;
+		}
+
+		div#about {
+			height: 2100px;
+			width: 100%;
+			font-size: 20px;
+		}
+
+		div#about div {
+			height: 700px;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			gap: 20px;
+		}
+
+		div#about div div {
+			width: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;	
+		}
+
+		div#about div:nth-of-type(1) div:nth-of-type(2) {
+			padding-right: 100px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		
+		div#about div:nth-of-type(2) div:nth-of-type(1) {
+			padding-left: 100px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+
+		div#about div:nth-of-type(3) div:nth-of-type(2) {
+			padding-right: 100px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+
+		div#skills {
+			height: 1000px;
+			width: 100%;
+		}
+
+		div#skills div {
+			height: 350px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		div#skills div div {
+			width: 33.33%;	
+			height: 50px;
+			display: block;
+			text-align: center;
+		}	
+
+		div#resume {
+			padding-top: 20px;
+			height: 700px;
+			width: 90%;
+			margin: 0 auto;
+			overflow-y: auto;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+
+		.container {
+			height: 1400px;
+			width: 95%;
+			margin: 20px auto;
+			background: #fff;
+			padding: 20px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+
+		h1, h2 {
+			color: #333;
+		}
+
+		.section {
+			margin-bottom: 20px;
+		}
+
+		.section-title {
+			font-size: 1.5em;
+			border-bottom: 2px solid #333;
+			margin-bottom: 10px;
+			padding-bottom: 5px;
+		}
+
+		ul {
+			list-style-type: none;
+			padding: 0;
+		}
+
+		li {
+			margin-bottom: 10px;
+		}
+
+		div#contact {
+			height: 700px;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			gap: 10px;
+			align-items: center;
+			flex-direction: column;
+		}
+		
+		div#contact input {
+			height: 50px;
+			width: 600px;	
+			flex-direction: column;
+		}
+		
+		div#contact input:nth-of-type(3) {
+			height: 200px;
+			width: 600px;
+			flex-direction: column;
+		}
+	</style>
+</head><body>
+	<div class="navbar">
+		<a id="navhome" href="#home"> HOME </a>
+		<a id="navabout" href="#about"> ABOUT </a>
+		<a id="navskills" href="#skills"> INTERESTS </a>
+		<a id="navresume" href="#resume"> RESUME </a>
+		<a id="navcontact" href="#contact"> CONTACT </a>
+	</div>
+	<div class="content">
+		<div id="home">
+			<div>
+				<p> Hi, I am Julius Serrano, a Computer Science Student in Cavite State University - Imus Campus. </p>
+			</div>
+			<div>
+				<img src="Untitled_design-removebg-preview.png" alt="Home Image" style="width: 300px; height: auto;"></img>
+			</div>
+		</div>
+		<div id="about">
+			<div>
+				<div> 
+					<img src="Untitled_design-removebg-preview.png" alt="Home Image" style="width: 300px; height: auto;"></img>
+				</div>
+				<div> 
+					<p> Hi, I am Julius! Im someone who enjoys exploring new ideas and solving problems, especially in programming and computer science. I love diving into creative projects, like illustration, and challenging my mind with puzzles. While I am naturally introspective and enjoy spending time in my thoughts, I am also social when it matters and value meaningful conversations. Staying active is important to me, and I enjoy working out and going to the gym as part of my routine. I am always eager to learn, grow, and take on new challenges! </p>
+				</div>
+			</div>	
+			<div>
+				<div>
+					<p> I come from a close-knit family. I have a supportive mother who has always been there for me, and a brother with whom I share many great memories. Though my father passed away, his presence and teachings continue to inspire me. Despite the challenges, my family has always remained a source of strength, love, and motivation in my life. </p>
+				</div>
+				<div>
+					<img src="img7.jpg" alt="Home Image" style="width: 300px; height: auto;"></img>
+				</div>
+			</div>	
+			<div>
+				<div>
+					<img src="img8.jpg" alt="Home Image" style="width: 300px; height: auto;"></img>
+				</div>
+				<div>
+					<p> I have a diverse range of hobbies and interests that keep me engaged and constantly learning. I am passionate about programming and computer science, always exploring new ways to challenge myself through creative projects and problem-solving. In addition to my academic pursuits, I enjoy illustration, which allows me to express my creativity in a different way. Puzzles also intrigue me, as they stimulate my mind and test my logical thinking.
+
+Reading books is another activity I enjoy, particularly in genres like crime/mystery and science fiction. Books are a great way for me to expand my knowledge and immerse myself in new worlds.
+
+I am also someone who values staying active, so working out and going to the gym have become an important part of my routine. This helps me maintain both physical and mental well-being. Overall, I am always eager to learn new things, whether it is through my academic interests, hobbies, or reading. </p>
+				</div>
+			</div>	
+		</div>
+		<div id="skills">
+			<div> 
+				<div> 
+					<img src="img1.jpg" alt="skills Image" style="width: 300px; height: auto;"></img>
+				</div>
+				<div> 
+					<img src="img2.jpg" alt="skills Image" style="width: 300px; height: auto;"></img>
+				</div>
+				<div> 
+					<img src="img3.jpg" alt="skills Image" style="width: 300px; height: auto;"></img>
+				</div>
+			</div>	
+			<div> 
+				<div> 
+					<img src="img4.jpg" alt="skills Image" style="width: 300px; height: auto;"></img>
+				</div>
+				<div> 
+					<img src="img5.jpg" alt="skills Image" style="width: 300px; height: auto;"></img>
+				</div>
+				<div> 
+					<img src="img6.jpg" alt="skills Image" style="width: 300px; height: auto;"></img>
+				</div>
+			</div>
+		</div>
+		<div id="resume">
+			<div class="container">
+        		<h1>John Julius Serrano</h1>
+        		<p>Email: julius.doe@example.com | Phone: +123 456 7890 | Location: Anywhere, World</p>
+
+        		<div class="section">
+           			<div class="section-title">Objective</div>
+            		<p>Motivated and detail-oriented individual seeking to contribute my skills in a dynamic role while learning and growing professionally.</p>
+        		</div>
+
+        		<div class="section">
+            		<div class="section-title">Education</div>
+            		<ul>
+                		<li><strong>Bachelor of Science in Computer Science</strong> - Cavite State University - Imus Campus (2024 - 2025)</li>
+            		</ul>
+        		</div>
+
+        		<div class="section">
+           			<div class="section-title">Work & Experience</div>
+            	<ul>
+                	<li>
+                    	<strong>Software Developer Intern</strong> - ABC Corp (June 2022 - August 2022)
+                    	<ul>
+                    	    <li>Developed and maintained internal tools using C++ and SDL2.</li>
+                    	    <li>Collaborated with a team to implement new features.</li>
+                    	</ul>
+                	</li>
+            	</ul>
+        		</div>
+
+		        <div class="section">
+		            <div class="section-title">Skills</div>
+			            <ul>
+			                <li>Proficient in C++, SDL2, and HTML/CSS.</li>
+	 			            <li>Experience with game development and interactive applications.</li>
+	   				        <li>Strong problem-solving and debugging skills.</li>
+		            	</ul>
+		        </div>
+
+		        <div class="section">
+		            <div class="section-title">Interests</div>
+		            <p>Programming, illustration, reading, solving puzzles, basketball, and staying physically active through gym workouts.</p>
+		        </div>
+    		</div>
+		</div>
+		<div id="contact">
+			<a id="message"> CONTACT ME! </a>
+			<input id="name" placeholder="Your Name"></input>
+			<input id="email" placeholder="Your Email"></input>
+			<input  id="text"plactext="Your Message"></input>
+			<button onclick="deleted()"> send </button>
+		</div>
+		<script>			
+			function deleted() {	
+				const messagectx = document.getElementById("message");
+				const namectx = document.getElementById("name");
+				const emailctx = document.getElementById("email");	
+				const textctx = document.getElementById("text");
+	
+				namectx.value = "";	
+				emailctx.value = "";	
+				textctx.value = "";
+				messagectx.innerHTML = "WILL BE WITH YOU SOON.";
+	
+	
+				console.log("success")
+			}
+		</script>
+	</div>
+</body>
+</html>
